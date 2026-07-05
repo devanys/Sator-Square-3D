@@ -1,0 +1,52 @@
+﻿@import "tailwindcss";
+
+@theme {
+  --color-abyss: #080706;
+  --color-void: #0f0d0a;
+  --color-stone: #16130e;
+  --color-stone-light: #1e1a13;
+  --color-parchment: #e4d9c5;
+  --color-dust: #b0a48e;
+  --color-muted: #6e6454;
+  --color-ember: #c4915a;
+  --color-flame: #daa96e;
+  --color-success: #7aad62;
+  --color-danger: #c45a5a;
+  --color-border: #28221a;
+  --color-border-light: #3a3228;
+  --font-cinzel: "Cinzel", serif;
+  --font-cormorant: "Cormorant Garamond", serif;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: var(--font-cormorant);
+  background: var(--color-abyss);
+  color: var(--color-parchment);
+  overflow-x: hidden;
+}
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--color-abyss); }
+::-webkit-scrollbar-thumb { background: var(--color-border-light); border-radius: 3px; }
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes squarePulse {
+  0%, 100% { box-shadow: 0 0 30px rgba(196,145,90,0.05); }
+  50% { box-shadow: 0 0 60px rgba(196,145,90,0.12); }
+}
+@keyframes cellShake {
+  0%, 100% { transform: translateX(0); }
+  20% { transform: translateX(-4px); }
+  40% { transform: translateX(4px); }
+  60% { transform: translateX(-3px); }
+  80% { transform: translateX(3px); }
+}
+@keyframes celebGlow {
+  0% { box-shadow: 0 0 0 transparent; border-color: var(--color-border); }
+  50% { box-shadow: 0 0 20px rgba(196,145,90,0.4); border-color: var(--color-ember); color: var(--color-flame); }
+  100% { box-shadow: 0 0 8px rgba(196,145,90,0.15); border-color: var(--color-success); color: var(--color-success); }
+}
