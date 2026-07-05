@@ -134,6 +134,7 @@ sator-square-project/
 - Floating dust particles in the scene
 - Auto-rotation with orbit controls (drag to rotate, scroll to zoom)
 - Dynamic lighting with warm gold and white tones
+<img width="2256" height="1504" alt="Screenshot 2026-07-05 132909" src="https://github.com/user-attachments/assets/5f980a69-6913-4b46-b6ef-ae24f2899472" />
 
 ### 2. Interactive Puzzle Game
 - 25 letters shuffled into a pool
@@ -144,6 +145,7 @@ sator-square-project/
 - Visual feedback: flash on place, shake on wrong, glow celebration on solve
 - Tutorial modal with 6 illustrated steps before playing
 - Best time and solve count persisted via API
+<img width="2256" height="1504" alt="Screenshot 2026-07-05 132928" src="https://github.com/user-attachments/assets/e4d2d867-1199-4b5d-9e83-ae117ce83641" />
 
 ### 3. Reading Direction Explorer
 - Four directional buttons: Right, Left, Down, Up
@@ -151,6 +153,7 @@ sator-square-project/
 - Word chips with Latin meanings appear per direction
 - Hover on word chip to highlight corresponding row/column
 - "Reveal All" mode for full illumination
+<img width="2256" height="1504" alt="Screenshot 2026-07-05 132919" src="https://github.com/user-attachments/assets/7012acc0-8ab3-43d8-92b1-ba47101c55e3" />
 
 ### 4. ML Pattern Analysis (Backend)
 - **Symmetry Score**: Compares grid against its transpose and 180 degree rotation using NumPy
@@ -163,6 +166,8 @@ sator-square-project/
 - Data fetched from backend API with database seeding
 - 5 real archaeological sites: Pompeii, Dura-Europos, Cirencester, Cihampelas, Austria
 - Cards with hover animations and gradient reveals
+<img width="2256" height="1504" alt="Screenshot 2026-07-05 132937" src="https://github.com/user-attachments/assets/f7bc001e-eb6f-4ebe-839a-46d31ae80efe" />
+
 
 ---
 
