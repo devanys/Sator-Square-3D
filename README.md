@@ -1,4 +1,8 @@
 
+
+https://github.com/user-attachments/assets/02723063-3715-41ba-9bee-1a439649e814
+
+
 A full-stack web application exploring the **Sator Square**, one of the oldest known palindromes in human history. Features a **Three.js 3D stone tablet visualization**, an **interactive puzzle game**, a **reading direction explorer**, and **ML-powered pattern analysis** — all connected through a Python FastAPI backend with React.js frontend.
 
 ![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat&logo=python&logoColor=white)
